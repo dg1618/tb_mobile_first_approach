@@ -1,0 +1,60 @@
+
+@media all and (min-width: 320px)
+{
+    body
+    {
+        background-color: lightgoldenrodyellow;
+    }
+    div#main
+    {
+        min-height: 500px;
+        position: relative;
+        top: 40px;
+    }
+    div.alert-position
+    {
+        margin-top: 20px;
+    }
+    h1
+    {
+        font-size: 2em;
+    }
+    div#chart_container
+    {
+        margin-top: 20px;
+    }
+    form#select_chart
+    {
+        margin-top: 20px;
+    }
+    div.tab-content
+    {
+        clear: both;
+        position: relative;
+        top: 20px;
+    }
+    table#admin_table
+    {
+        margin-top: 20px;
+        background-color: white;
+    }
+    
+}
+
+@media all and (min-width: 650px)
+{
+    div#main
+    {
+       position: relative;
+       top: 50px; 
+    }
+    h1
+    {
+        font-size: 2.5em;
+    }
+    div.sp_h1
+    {
+        margin-left: -25px;
+    }
+}
+
